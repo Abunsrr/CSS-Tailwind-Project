@@ -12,41 +12,41 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<nav class="flex flex-rowa p-2  bg-gray-800 static text-xl text-white"> 
-  <div class="flex flex-row relative ml-10 ">
-    <img class="h-6 mt-1" src="vscode logo.png"  alt="">
-    <span class="ml-2 ">visual Studio Code</span> 
-  </div>
-  <div  class="flex flex-row ml-6 mt-1 " >
-    <ul id="nav-list" class=" flex flex-row justify-center gap-10 text-gray-300 text-base ">
-      <li>Doc</li>
-      <li>Updates</li>
-      <li>Blog</li>
-      <li>Api</li>
-      <li>Extension</li>
-      <li>FAQ</li>
-      <li>Learn</li>
-    </ul>
-    
-  </div>
-
-  <div class="flex flex-row ml-10    ">
-      
-    <div class="search-container flex rounded-md border items-stretch  border-gray-300">
-      <button type="submit" class="  bg-transparent">
-        <i class="fas fa-search"></i> 
-      </button>
-      <input type="search" placeholder="Search..." class=" focus:outline-none">
-      
+  <nav class="flex flex-row p-2 w-full bg-gray-800  text-xl text-white z-10">
+    <div class="flex flex-row relative ml-10 items-center">  <img class="h-6 mt-1 mr-2" src="vscode logo.png" alt="">  <span class="ml-2">visual Studio Code</span>
     </div>
-    <button class="bg-cyan-700 rounded-md ml-2 p-1 text-base font-bold"> <i class="fa fa-download"></i> Download File </button>  
+  
+    <div class="flex flex-row ml-6 mt-1">
+      <ul id="nav-list" class="flex flex-row justify-center gap-10 text-gray-300 text-base">
+        <li>Doc</li>
+        <li>Updates</li>
+        <li>Blog</li>
+        <li>Api</li>
+        <li>Extension</li>
+        <li>FAQ</li>
+        <li>Learn</li>
+      </ul>
+    </div>
+  
+    <div class="flex flex-row ml-10">
+      <div class="search-container flex rounded-md border items-stretch border-gray-300">
+        <button type="submit" class="bg-transparent">
+          <i class="fas fa-search"></i>
+        </button>
+        <input type="search" placeholder="Search..." class="focus:outline-none">
+      </div>
+      <button class="bg-blue-600 rounded-md ml-2 p-1 text-base font-bold">
+        <i class="fa fa-download"></i> Download File
+      </button>
+    </div>
+  </nav>
+                 
 
- </div>
-</nav>
-
-<!-- ads -->
-<div class="bg-gray-900 p-3 text-white text-center "> <a class="text-blue-500" href="www,infogex.com">version 1.87</a> is now available! Read about the new features and fixes from February.</div>
+  <!-- ads  -->
+  <div class="bg-gray-800 p-3 text-white text-center">
+    <a class="text-blue-500" href="www.infogex.com">version 1.87</a> is now available! Read about the new features and fixes from February.
+  </div>
+  
 
 <!-- hero-section -->
 <main id="main" class="flex flex-row  bg-gray-800 w-full h-[ 866.052px] py-10">
@@ -68,6 +68,7 @@
     <img src="ss.png" alt="">
   </div>
 </main>
+
 
 <!-- icon section -->
 
@@ -101,20 +102,75 @@
 
 <!-- banner section -->
 
-<section class="h-[308px] bg-stone-100">
+<section class="h-[308px] bg-stone-100 flex flex-row items-center">
   
-  <div>
+  <div class="w-1/3 ml-14">
   <img src="left.svg" alt="">
   </div>
 
-  <!-- right   -->
-  <div>
-
+<div class="w-2/3 mb-[100px] ml-14">
+ <h1 class="text-4xl">Meet IntelliSense.</h1>
+ <p class="text-xl mt-6 ">Go beyond syntax highlighting and autocomplete with IntelliSense,which <br> provides smart completions based on variable types, function definitions, and imported modules.</p>
   </div>
 </section>
 
+<div class="h-[308px] bg-white flex flex-row items-center">
+  
+  <div class="w-2/3 mb-[100px] ml-14">
+    <h1 class="text-4xl">Git commands built-in.</h1>
+    <p class="text-xl mt-6 ">Working with Git and other SCM providers has never been easier. Review diffs, stage files, and make commits right from the editor. Push and pull from any hosted SCM service.</p>
+     </div>
+     
+  <div class="w-1/3 ml-14">
+  <img src="home-git.svg" alt="">
+  </div>
 
 
+</div>
+
+
+<section class="h-[308px] bg-stone-100 flex flex-row items-center">
+  
+  <div class="w-1/3 ml-14">
+  <img src="Hundreds-of-Extensions.png" alt="">
+  </div>
+
+<div class="w-2/3 mb-[100px] ml-14">
+ <h1 class="text-4xl">Extensible and customizable.</h1>
+ <p class="text-xl mt-6 ">Want even more features? Install extensions to add new languages, themes, debuggers, and to connect to additional services. Extensions run in separate processes, ensuring they won't slow down your editor. <a href="">Learn more about extensions.</a></p>
+  </div>
+</section>
+
+<div class="h-[308px] bg-white flex flex-row items-center">
+  
+  <div class="w-2/3 mb-[100px] ml-14">
+    <h1 class="text-4xl">Git commands built-in.</h1>
+    <p class="text-xl mt-6 ">Working with Git and other SCM providers has never been easier. Review diffs, stage files, and make commits right from the editor. Push and pull from any hosted SCM service.</p>
+     </div>
+     
+  <div class="w-1/3 ml-14">
+  <img src="home-git.svg" alt="">
+  </div>
+
+
+</div>
+
+<footer class="bg-gray-800 h-14 p-10 ">
+ <div class="float-left ">
+ <span class="text-white" >Hello from Seattle.</span> 
+ <span class="ml-6 text-white"> Follow @code</span>
+ </div>
+
+ <div class="float-right">
+ <ul class="flex flex-row gap-4 text-white">
+  <li>Suppor</li>
+  <li>Privacy</li>
+  <li>Term of uses</li>
+  <li>License</li>
+  <li>copyright </li>
+ </ul>
+ </div>
+</footer>
 
       
 
