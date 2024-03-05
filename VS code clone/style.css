@@ -1,0 +1,19 @@
+
+
+
+#nav-list li:hover{
+ color:#ffffff99;    
+  cursor: pointer;
+}
+
+#main{
+    position: relative;
+}
+
+#left{
+  position: relative;
+  top: -70px;
+}
+
+
+
