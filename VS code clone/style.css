@@ -1,5 +1,9 @@
 
-
+nav{
+  position: sticky;
+  top: 0;
+ 
+}
 
 #nav-list li:hover{
  color:#ffffff99;    
